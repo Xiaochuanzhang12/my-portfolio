@@ -1,0 +1,28 @@
+附录：书中涉及Github地址及参考文献下载
+
+6.2 LangGraph对AI Agent的支持
+6.2.2 在Graph类中允许添加节点（Node）、边（Edge），并定义节点间的动态流转逻辑。关于Graph类的主要组成部分和功能定义详见https://langchain-ai.github.io/langgraph/reference/graphs/#langgraph.graph.graph.Graph，其界面如图6-3所示。
+
+6.2.2 这个过程通过状态图StateGraph类实现，它继承自 Graph 类，这意味着 StateGraph 会使用或扩展基类的属性和方法，StateGraph类的定义详见https://langchain-ai.github.io/langgraph/reference/graphs/#langgraph.graph.state.StateGraph。
+
+6.4 工具调用AI Agent
+6.4.1 在LangGraph框架中可以直接使用预构建的ToolNode类进行工具调用，通过研究LangGraph中对工具调用的集成和使用方法，可以发现其内部实现原理和我们介绍的手动实现Function Calling流程思路基本一致（可参看ToolNode类的源码，详见https://langchain-ai.github.io/langgraph/reference/prebuilt/#langgraph.prebuilt.tool_node.ToolNode）
+
+
+8.4 基于AI Agent的智能客服系统在金融行业的应用
+8.4.1华夏基金团队设计成果（记为bs-challenge-financial）的Github地址：https://github.com/Tongyi-EconML/FinQwen/blob/main/solutions/3_hxjj；
+
+8.4.1博金大模型挑战赛金融数据集详见：https://www.modelscope.cn/datasets/BJQW14B/bs_challenge_financial_14b_dataset/summary  。
+
+
+9.2 多模态AI Agent的构建与应用探索
+9.2.2 ModelScope-Agent的官方文档和示例代码：（https://github.com/modelscope/modelscope-agent）
+
+9.2.2 Mobile-Agent-V2的论文也已开源，有兴趣的读者可以在对应的仓库中体验Demo和相关功能（详见https://github.com/modelscope/modelscope-agent/tree/master/modelscope_agent/agents/mobile_agent_v2）
+
+9.2.2 有兴趣的读者可以了解参与（详见https://github.com/X-PLUG/MobileAgent，开源界面截图如9-17所示）并为Mobile-Agent项目做出贡献。
+
+
+【参考文献下载】
+如1.2 AI Agent的历史与发展：A Survey on Large Language Model based Autonomous Agents，【康奈尔大学arXiv平台】提供了下载地址——https://arxiv.org/abs/2308.11432
+注：书中所涉【论文】均可通过必应搜索对应题目，在康奈尔大学arXiv平台上下载，读者可按需下载。
